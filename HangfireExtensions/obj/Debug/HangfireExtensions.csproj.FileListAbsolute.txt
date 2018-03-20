@@ -1,0 +1,14 @@
+c:\users\eduardojuliao-mtz\documents\visual studio 2017\Projects\HangfireExtensions\HangfireExtensions\bin\Debug\HangfireExtensions.dll
+c:\users\eduardojuliao-mtz\documents\visual studio 2017\Projects\HangfireExtensions\HangfireExtensions\bin\Debug\HangfireExtensions.pdb
+c:\users\eduardojuliao-mtz\documents\visual studio 2017\Projects\HangfireExtensions\HangfireExtensions\bin\Debug\Hangfire.Core.dll
+c:\users\eduardojuliao-mtz\documents\visual studio 2017\Projects\HangfireExtensions\HangfireExtensions\bin\Debug\es\Hangfire.Core.resources.dll
+c:\users\eduardojuliao-mtz\documents\visual studio 2017\Projects\HangfireExtensions\HangfireExtensions\bin\Debug\zh\Hangfire.Core.resources.dll
+c:\users\eduardojuliao-mtz\documents\visual studio 2017\Projects\HangfireExtensions\HangfireExtensions\bin\Debug\Hangfire.SqlServer.dll
+c:\users\eduardojuliao-mtz\documents\visual studio 2017\Projects\HangfireExtensions\HangfireExtensions\bin\Debug\Microsoft.Owin.dll
+c:\users\eduardojuliao-mtz\documents\visual studio 2017\Projects\HangfireExtensions\HangfireExtensions\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\eduardojuliao-mtz\documents\visual studio 2017\Projects\HangfireExtensions\HangfireExtensions\bin\Debug\Newtonsoft.Json.dll
+c:\users\eduardojuliao-mtz\documents\visual studio 2017\Projects\HangfireExtensions\HangfireExtensions\bin\Debug\Owin.dll
+c:\users\eduardojuliao-mtz\documents\visual studio 2017\Projects\HangfireExtensions\HangfireExtensions\obj\Debug\HangfireExtensions.csprojResolveAssemblyReference.cache
+c:\users\eduardojuliao-mtz\documents\visual studio 2017\Projects\HangfireExtensions\HangfireExtensions\obj\Debug\HangfireExtensions.csproj.CoreCompileInputs.cache
+c:\users\eduardojuliao-mtz\documents\visual studio 2017\Projects\HangfireExtensions\HangfireExtensions\obj\Debug\HangfireExtensions.dll
+c:\users\eduardojuliao-mtz\documents\visual studio 2017\Projects\HangfireExtensions\HangfireExtensions\obj\Debug\HangfireExtensions.pdb

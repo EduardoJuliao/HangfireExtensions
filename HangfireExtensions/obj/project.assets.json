@@ -1,0 +1,527 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5": {
+      "Hangfire/1.6.7": {
+        "type": "package",
+        "dependencies": {
+          "Hangfire.Core": "[1.6.7]",
+          "Hangfire.SqlServer": "[1.6.7]",
+          "Microsoft.Owin.Host.SystemWeb": "3.0.0"
+        }
+      },
+      "Hangfire.Core/1.6.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "5.0.0",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Hangfire.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Hangfire.Core.dll": {}
+        },
+        "resource": {
+          "lib/net45/es/Hangfire.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/zh/Hangfire.Core.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "Hangfire.SqlServer/1.6.7": {
+        "type": "package",
+        "dependencies": {
+          "Hangfire.Core": "[1.6.7]"
+        },
+        "compile": {
+          "lib/net45/Hangfire.SqlServer.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Hangfire.SqlServer.dll": {}
+        }
+      },
+      "Microsoft.Owin/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.SystemWeb/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "3.0.0",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {}
+        }
+      },
+      "Newtonsoft.Json/5.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5/win": {
+      "Hangfire/1.6.7": {
+        "type": "package",
+        "dependencies": {
+          "Hangfire.Core": "[1.6.7]",
+          "Hangfire.SqlServer": "[1.6.7]",
+          "Microsoft.Owin.Host.SystemWeb": "3.0.0"
+        }
+      },
+      "Hangfire.Core/1.6.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "5.0.0",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Hangfire.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Hangfire.Core.dll": {}
+        },
+        "resource": {
+          "lib/net45/es/Hangfire.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/zh/Hangfire.Core.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "Hangfire.SqlServer/1.6.7": {
+        "type": "package",
+        "dependencies": {
+          "Hangfire.Core": "[1.6.7]"
+        },
+        "compile": {
+          "lib/net45/Hangfire.SqlServer.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Hangfire.SqlServer.dll": {}
+        }
+      },
+      "Microsoft.Owin/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.SystemWeb/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "3.0.0",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {}
+        }
+      },
+      "Newtonsoft.Json/5.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5/win-x64": {
+      "Hangfire/1.6.7": {
+        "type": "package",
+        "dependencies": {
+          "Hangfire.Core": "[1.6.7]",
+          "Hangfire.SqlServer": "[1.6.7]",
+          "Microsoft.Owin.Host.SystemWeb": "3.0.0"
+        }
+      },
+      "Hangfire.Core/1.6.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "5.0.0",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Hangfire.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Hangfire.Core.dll": {}
+        },
+        "resource": {
+          "lib/net45/es/Hangfire.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/zh/Hangfire.Core.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "Hangfire.SqlServer/1.6.7": {
+        "type": "package",
+        "dependencies": {
+          "Hangfire.Core": "[1.6.7]"
+        },
+        "compile": {
+          "lib/net45/Hangfire.SqlServer.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Hangfire.SqlServer.dll": {}
+        }
+      },
+      "Microsoft.Owin/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.SystemWeb/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "3.0.0",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {}
+        }
+      },
+      "Newtonsoft.Json/5.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5/win-x86": {
+      "Hangfire/1.6.7": {
+        "type": "package",
+        "dependencies": {
+          "Hangfire.Core": "[1.6.7]",
+          "Hangfire.SqlServer": "[1.6.7]",
+          "Microsoft.Owin.Host.SystemWeb": "3.0.0"
+        }
+      },
+      "Hangfire.Core/1.6.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "5.0.0",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Hangfire.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Hangfire.Core.dll": {}
+        },
+        "resource": {
+          "lib/net45/es/Hangfire.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/zh/Hangfire.Core.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "Hangfire.SqlServer/1.6.7": {
+        "type": "package",
+        "dependencies": {
+          "Hangfire.Core": "[1.6.7]"
+        },
+        "compile": {
+          "lib/net45/Hangfire.SqlServer.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Hangfire.SqlServer.dll": {}
+        }
+      },
+      "Microsoft.Owin/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.SystemWeb/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "3.0.0",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {}
+        }
+      },
+      "Newtonsoft.Json/5.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Hangfire/1.6.7": {
+      "sha512": "jfgGIWcf0amAqkjLIVT6yH6nkJ5lzEsUJhhPxnF5D5PEpjPmJtN1NgdE6i4Th5y1r7DIsvXy4mr1wr098UcFvQ==",
+      "type": "package",
+      "path": "hangfire/1.6.7",
+      "files": [
+        "hangfire.1.6.7.nupkg.sha512",
+        "hangfire.nuspec",
+        "readme.txt"
+      ]
+    },
+    "Hangfire.Core/1.6.7": {
+      "sha512": "mRsOf7oN18o5FVK7PeAFQ/cjxJPbWQ3Pa2Z8JS2QZrME1bqIpJXYkt36Qh603i1nWb7tJYl+QQITiTcxDo0L9A==",
+      "type": "package",
+      "path": "hangfire.core/1.6.7",
+      "files": [
+        "hangfire.core.1.6.7.nupkg.sha512",
+        "hangfire.core.nuspec",
+        "lib/net45/Hangfire.Core.dll",
+        "lib/net45/Hangfire.Core.xml",
+        "lib/net45/es/Hangfire.Core.resources.dll",
+        "lib/net45/zh/Hangfire.Core.resources.dll",
+        "lib/netstandard1.3/Hangfire.Core.dll",
+        "lib/netstandard1.3/Hangfire.Core.xml",
+        "lib/netstandard1.3/es/Hangfire.Core.resources.dll",
+        "lib/netstandard1.3/zh/Hangfire.Core.resources.dll"
+      ]
+    },
+    "Hangfire.SqlServer/1.6.7": {
+      "sha512": "JbyS0bkM+XJ65KU7GqLA4pmSUQlxIw/UVEHiRHnoTcODjcHhhw9nLZuEkwL/t0aEdrpAu2PDvpBcXyHfIMCUVA==",
+      "type": "package",
+      "path": "hangfire.sqlserver/1.6.7",
+      "files": [
+        "hangfire.sqlserver.1.6.7.nupkg.sha512",
+        "hangfire.sqlserver.nuspec",
+        "lib/net45/Hangfire.SqlServer.dll",
+        "lib/net45/Hangfire.SqlServer.xml",
+        "lib/netstandard1.3/Hangfire.SqlServer.dll",
+        "lib/netstandard1.3/Hangfire.SqlServer.xml",
+        "tools/install.sql"
+      ]
+    },
+    "Microsoft.Owin/3.0.0": {
+      "sha512": "SpMoiTFNsfzlo4VFYVtlErbBpm84pNVnhAbihzm1JCaXs7VfHqs/MEXEJ4Xtr1jXEp2hyKYpno8v8P58KTZVEA==",
+      "type": "package",
+      "path": "microsoft.owin/3.0.0",
+      "files": [
+        "lib/net45/Microsoft.Owin.XML",
+        "lib/net45/Microsoft.Owin.dll",
+        "microsoft.owin.3.0.0.nupkg.sha512",
+        "microsoft.owin.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Host.SystemWeb/3.0.0": {
+      "sha512": "MK7tSToRPgLgPpBXczM7bq1Z93yvPTuwkYwHMRKnwLwXX1+4phK/JqyAGPoHKIxZLiMOmY6J+KEDCRtJq7HiSg==",
+      "type": "package",
+      "path": "microsoft.owin.host.systemweb/3.0.0",
+      "files": [
+        "lib/net45/Microsoft.Owin.Host.SystemWeb.dll",
+        "lib/net45/Microsoft.Owin.Host.SystemWeb.xml",
+        "microsoft.owin.host.systemweb.3.0.0.nupkg.sha512",
+        "microsoft.owin.host.systemweb.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/5.0.1": {
+      "sha512": "AuSDf0kpGGLSvFmj1Zia8BxTeUCdQ6lB8lWUZRYVXRnAQLmiEGmoP0M+9KHwJNqBW2FiFwSG8Jkz3G7tS6k7MQ==",
+      "type": "package",
+      "path": "newtonsoft.json/5.0.1",
+      "files": [
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netcore45/Newtonsoft.Json.dll",
+        "lib/netcore45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl4+wp7+win8/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl4+wp7+win8/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8/Newtonsoft.Json.xml",
+        "lib/wp80/Newtonsoft.Json.dll",
+        "lib/wp80/Newtonsoft.Json.xml",
+        "newtonsoft.json.5.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "Owin/1.0.0": {
+      "sha512": "OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
+      "type": "package",
+      "path": "owin/1.0.0",
+      "files": [
+        "lib/net40/Owin.dll",
+        "owin.1.0.0.nupkg.sha512",
+        "owin.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5": [
+      "HangFire >= 1.6.7"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\eduardojuliao-mtz\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "c:\\users\\eduardojuliao-mtz\\documents\\visual studio 2017\\Projects\\HangfireExtensions\\HangfireExtensions\\HangfireExtensions.csproj",
+      "projectName": "HangfireExtensions",
+      "projectPath": "c:\\users\\eduardojuliao-mtz\\documents\\visual studio 2017\\Projects\\HangfireExtensions\\HangfireExtensions\\HangfireExtensions.csproj",
+      "packagesPath": "C:\\Users\\eduardojuliao-mtz\\.nuget\\packages\\",
+      "outputPath": "c:\\users\\eduardojuliao-mtz\\documents\\visual studio 2017\\Projects\\HangfireExtensions\\HangfireExtensions\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\eduardojuliao-mtz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+      ],
+      "originalTargetFrameworks": [
+        "net45"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.nuget.org/api/v2": {}
+      },
+      "frameworks": {
+        "net45": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net45": {
+        "dependencies": {
+          "HangFire": {
+            "target": "Package",
+            "version": "[1.6.7, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Hangfire.Core 1.6.7 depends on Newtonsoft.Json (>= 5.0.0) but Newtonsoft.Json 5.0.0 was not found. An approximate best match of Newtonsoft.Json 5.0.1 was resolved.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.5",
+        ".NETFramework,Version=v4.5/win",
+        ".NETFramework,Version=v4.5/win-x64",
+        ".NETFramework,Version=v4.5/win-x86"
+      ]
+    }
+  ]
+}
